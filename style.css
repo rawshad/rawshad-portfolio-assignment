@@ -31,6 +31,10 @@ nav a {
     font-weight: 700;
 }
 
+section {
+    height: 500px;
+}
+
 .half-width {
     width: 40%;
     float:left;
@@ -85,4 +89,57 @@ nav a {
 .aboutText h2 {
     font-size: 48px;
     line-height: 48px;
+}
+
+.latestProject {
+    margin: 150px 0 0 0;
+    background: #E5E5E5;
+    padding: 10% 0;
+}
+
+.latestProject h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.latestProject h1 span {
+    color: #F46060;
+}
+
+.projectCard {
+    width: 90%;
+    margin-left: 7.5%;
+}
+
+.card {
+    width: 30%;
+    float: left;
+    background: #FFFFFF;
+    margin-right: 2%;
+    margin-top: 81px;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+}
+
+.card img {
+    width: 100%;
+    text-align: center;
+}
+
+.card h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    padding: 5%;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding: 0 5%;
 }
