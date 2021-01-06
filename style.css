@@ -141,5 +141,38 @@ section {
     font-size: 16px;
     line-height: 28px;
     color: #6C6C6C;
-    padding: 0 5%;
+    padding: 0 5% 5% 5%;
+}
+
+.inquiry {
+    width: 60%;
+    margin: 100px auto;
+    background-image: url(images/background-1.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 88px 67px 73px 74px;
+}
+
+.float-left {
+    display: inline-block;
+    width: 40%;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.float-right {
+    display: inline-block;
+    width: 40%;
+    background: blue;
+}
+
+.chatButton {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 18px 32px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
 }
