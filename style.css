@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+nav {
+    background: #FFFFFF;
+    width: 80%;
+    margin: 2.4rem auto;
+}
+
+nav a {
+    float: right;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
