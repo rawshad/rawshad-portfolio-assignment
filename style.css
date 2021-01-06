@@ -144,14 +144,18 @@ section {
     padding: 0 5% 5% 5%;
 }
 
+.inquirySection {
+    height: 300px;
+}
+
 .inquiry {
     width: 60%;
-    height: 450px;
-    margin: 100px auto;
+    height: 150px;
+    margin: 100px auto 0 auto;
     background-image: url(images/background-1.png);
     background-repeat: no-repeat;
     border-radius: 30px;
-    padding: 88px 67px 73px 74px;
+    padding: 88px 67px 0px 74px;
 }
 
 .float-left {
@@ -184,4 +188,32 @@ section {
     float: right;
     border-radius: 5px;
     margin-right: 60px;
+}
+
+.stayConnected {
+    text-align: center;
+}
+
+.stayConnected h2, .stayConnected a {
+    margin-bottom: 10px;
+}
+
+.stayConnected h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+}
+
+.stayConnected a {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
 }
