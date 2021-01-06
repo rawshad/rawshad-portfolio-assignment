@@ -9,7 +9,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 a {
@@ -19,13 +19,60 @@ a {
 
 nav {
     background: #FFFFFF;
-    width: 80%;
-    margin: 2.4rem auto;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2.4rem;
 }
 
 nav a {
     float: right;
     padding: 0 1rem;
     font-size: 1rem;
+    font-weight: 700;
+}
+
+.half-width {
+    width: 40%;
+    float:left;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.personalIntro {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.introText {
+    padding: 100px 0 0 0;
+}
+
+.introText h1 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.introText h1 span {
+    color: #F46060;
+}
+
+.introText p {
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.introText a {
+    padding: 30px 85px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    color: #FFFFFF;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sectionImg {
+    padding-left: 15%;
 }
