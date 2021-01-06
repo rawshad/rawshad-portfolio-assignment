@@ -217,3 +217,24 @@ section {
     height: 40px;
     padding: 10px 10px;
 }
+
+.collaboration {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.collaboration h1 {
+    font-size: 48px;
+    padding-top: 50px;
+}
+
+.collaboration h1 span {
+    color: #F46060;
+}
+
+.companies img {
+    width: 300px;
+    height: 150px;
+}
