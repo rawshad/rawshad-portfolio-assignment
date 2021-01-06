@@ -49,22 +49,22 @@ nav a {
     padding: 100px 0 0 0;
 }
 
-.introText h1 {
+.half-width h1 {
     font-weight: bold;
     font-size: 80px;
     line-height: 80px;
 }
 
-.introText h1 span {
+.half-width h1 span {
     color: #F46060;
 }
 
-.introText p {
+.half-width p {
     line-height: 24px;
     margin-bottom: 48px;
 }
 
-.introText a {
+.half-width a {
     padding: 30px 85px;
     background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
     border-radius: 6px;
@@ -75,4 +75,14 @@ nav a {
 }
 .sectionImg {
     padding-left: 15%;
+}
+
+.aboutText {
+    padding-left: 20%;
+    padding-top: 150px;
+}
+
+.aboutText h2 {
+    font-size: 48px;
+    line-height: 48px;
 }
